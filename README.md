@@ -1,12 +1,3 @@
----
-title: '青春有你2 评论分析拓展'
-date: 2020-04-23 14:05:39
-tags: []
-published: true
-hideInList: false
-feature: 
-isTop: false
----
 ## 1. 多线程数据爬取
 ### 获取视频列表
 获取视频列表的url为https://www.iqiyi.com/v_19ryi480ks.html。 即任意一期右侧的正片这一栏。![](https://yueqingsheng.github.io/post-images/1588097362211.png)
