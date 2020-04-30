@@ -32,13 +32,12 @@
 **数据请求后, 评论列表不再改变可以转化为tuple使用, tuple的access速度会比list快**
 使用tuple分词用了 9分3秒，会比list快十几秒。
 ## 4. 选手词频统计
-经过25万条评论统计，按前20选手姓名出现频率排序
-![](https://yueqingsheng.github.io/post-images/1588203706129.png)
+经过26万条评论统计，按前20选手姓名出现频率排序
+![](https://yueqingsheng.github.io/post-images/1588269289897.png)
 
-跟之前爬单期数据区别蛮大的，刘雨昕变成了第一。
 ## 5. 词云
 按照词频显示词云
-![](https://yueqingsheng.github.io/post-images/1588204256188.png)
+![](https://yueqingsheng.github.io/post-images/1588269308723.png)
 
 之前用形状和上色绘制了下词云，但是感觉效果没有原生的好。(这个是基于1000条数据生成的)
 ![](https://yueqingsheng.github.io/post-images/1588211480849.png)
