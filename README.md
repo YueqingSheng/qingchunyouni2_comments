@@ -4,6 +4,7 @@
 获取视频列表的url为https://www.iqiyi.com/v_19ryi480ks.html。 即任意一期右侧的正片这一栏。![](https://yueqingsheng.github.io/post-images/1588097362211.png)
 找到 li标签下 class为play-list-item的data-td属性
 ![](https://yueqingsheng.github.io/post-images/1588098764168.png)
+
 **需要注意爬取后的列表第一个为预告，可以去掉，这里只爬取所有正片**
 ### 获取评论列表
 [接口](https://sns-comment.iqiyi.com/v3/comment/get_comments.action?agent_type=118&agent_version=9.11.5&authcookie=null&business_type=17&content_id=15533381100&hot_size=0&last_id=15533381100&page=4&page_size=40&types=time)
@@ -33,14 +34,17 @@
 ## 4. 选手词频统计
 经过25万条评论统计，按前20选手姓名出现频率排序
 ![](https://yueqingsheng.github.io/post-images/1588203706129.png)
+
 跟之前爬单期数据区别蛮大的，刘雨昕变成了第一。
 ## 5. 词云
 按照词频显示词云
 ![](https://yueqingsheng.github.io/post-images/1588204256188.png)
+
 之前用形状和上色绘制了下词云，但是感觉效果没有原生的好。(这个是基于1000条数据生成的)
 ![](https://yueqingsheng.github.io/post-images/1588211480849.png)
 ## 6. 节目评价
 ![](https://yueqingsheng.github.io/post-images/1588210836624.png)
+
 总体还是正向和中性评价占了绝大多数，95%。
 随机打印一点 评价
 正向：
